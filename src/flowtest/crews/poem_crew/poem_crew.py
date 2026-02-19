@@ -37,7 +37,6 @@ class PoemCrew:
     def write_poem(self) -> Task:
         return Task(
             config=self.tasks_config["write_poem"],  # type: ignore[index]
-            human_input=True,
         )
 
     @crew
